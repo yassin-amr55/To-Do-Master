@@ -1,4 +1,4 @@
-import { Download, FileText, Github, Twitter, Mail } from 'lucide-react';
+import { Download, Github, Twitter, Mail } from 'lucide-react';
 import logo from '/assets/icon.png';
 
 export default function Footer() {
@@ -37,10 +37,14 @@ export default function Footer() {
               <a href="#screenshots" className="block text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
                 Screenshots
               </a>
-              <a href="/pp" className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
-                <FileText className="w-4 h-4" />
-                Privacy Policy
-              </a>
+                          <a
+              href="https://t-o-d-o-master.netlify.app/pp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
+            >
+              Privacy Policy
+            </a>
             </div>
           </div>
 

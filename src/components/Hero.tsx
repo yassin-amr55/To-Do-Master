@@ -60,7 +60,9 @@ export default function Hero() {
                 Download To-Do Master (.apk)
               </button>
               <a
-                href="/pp"
+                href="https://t-o-d-o-master.netlify.app/pp"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-4 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors flex items-center justify-center gap-2"
               >
                 <FileText className="w-4 h-4" />
