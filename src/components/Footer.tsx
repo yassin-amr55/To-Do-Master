@@ -3,7 +3,12 @@ import logo from '/assets/icon.png';
 
 export default function Footer() {
   const handleDownload = () => {
-    window.location.href = '/TodoMaster.apk';
+    const link = document.createElement('a');
+    link.href = '/TodoMaster.apk';
+    link.download = 'TodoMaster.apk';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

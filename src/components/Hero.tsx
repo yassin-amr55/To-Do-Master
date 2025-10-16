@@ -3,7 +3,12 @@ import PhoneMockup from './PhoneMockup';
 
 export default function Hero() {
   const handleDownload = () => {
-    window.location.href = '/TodoMaster.apk';
+    const link = document.createElement('a');
+    link.href = '/TodoMaster.apk';
+    link.download = 'TodoMaster.apk';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -55,7 +60,7 @@ export default function Hero() {
                 Download To-Do Master (.apk)
               </button>
               <a
-                href="/privacy-policy"
+                href="/pp"
                 className="px-6 py-4 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors flex items-center justify-center gap-2"
               >
                 <FileText className="w-4 h-4" />
