@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
 
 export default function PrivacyPolicy() {
   useEffect(() => {
@@ -13,6 +15,15 @@ export default function PrivacyPolicy() {
     <div className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <header className="text-center mb-8">
+          <div className="mb-4">
+            <Link
+              to="/"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 dark:bg-orange-500 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-orange-600 transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back to the website
+            </Link>
+          </div>
           <h1 className="text-4xl font-bold text-blue-600 dark:text-orange-500 mb-2">To-Do Master</h1>
           <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-300">Privacy Policy</h2>
         </header>
@@ -107,7 +118,7 @@ export default function PrivacyPolicy() {
           <div className="section">
             <h2 className="text-2xl font-bold text-blue-600 dark:text-orange-500">8. Changes to This Privacy Policy</h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top.
+              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
             </p>
           </div>
 
@@ -117,7 +128,7 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy or our practices, please contact us at:
             </p>
             <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg mt-4">
-              <p className="text-gray-700 dark:text-gray-300"><strong>Email:</strong> yassin5amr55@gmail.com</p>
+              <p className="text-gray-700 dark:text-gray-300"><strong>Email:</strong> todomaster.todo@gmail.com</p>
             </div>
           </div>
         </div>

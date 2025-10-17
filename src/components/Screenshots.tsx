@@ -3,13 +3,13 @@ import { X } from 'lucide-react';
 
 const screenshots = [
   {
-    title: 'Daily View',
-    description: 'Track your daily routines with progress indicators',
+    title: 'Multiple lists',
+    description: 'Track all your lists easly',
     image: '/assets/screenshot1.png'
   },
   {
-    title: 'Weekly Overview',
-    description: 'See your consistency across the week',
+    title: 'Daily View',
+    description: 'Track your daily routines with progress indicators',
     image: '/assets/Screenshot2.png'
   },
   {

@@ -60,25 +60,7 @@ export default function Footer() {
 
             <div className="flex gap-4 pt-2">
               <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-100 dark:bg-slate-700 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-slate-600 transition-colors"
-                aria-label="GitHub"
-              >
-                <Github className="w-5 h-5 text-gray-700 dark:text-gray-300" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-100 dark:bg-slate-700 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-slate-600 transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5 text-gray-700 dark:text-gray-300" />
-              </a>
-              <a
-                href="mailto:support@todomaster.app"
+                href="mailto:todomaster.todo@gmail.com"
                 className="w-10 h-10 rounded-full bg-gray-100 dark:bg-slate-700 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-slate-600 transition-colors"
                 aria-label="Email"
               >
